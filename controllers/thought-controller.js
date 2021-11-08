@@ -1,6 +1,8 @@
 const { thought } = require('../models');
 
 const thoughtController = {
+
+
       getThought({ params, body }, res) {
     console.log(params);
 
@@ -100,4 +102,4 @@ const thoughtController = {
 //   }
 };
 
-module.exports = commentController;
+module.exports = thoughtController;
